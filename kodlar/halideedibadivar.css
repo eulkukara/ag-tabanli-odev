@@ -1,0 +1,102 @@
+@keyframes slideIn {
+    from {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.name {
+    animation: slideIn 2s;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-image: url("imgs/halideedibadivarwp2.jpg");
+    background-size:contain;
+    background-position:top;
+    background-repeat: no-repeat;
+}
+
+.baslik {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-seri;
+    margin-right: 500px;
+    position: relative;
+    bottom:-45px;
+
+    
+}
+
+.hayat {
+    background: rgb(142, 142, 142);
+    padding: 80px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    
+
+}
+
+.slider {
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+    overflow: hidden; 
+}
+
+.slides {
+    display: flex; 
+    transition: transform 0.5s ease; 
+}
+
+.slide {
+    min-width: 100%; 
+}
+
+img {
+    width: 100%; 
+    min-height: 100%; 
+}
+
+.nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.prev, .next {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+table {
+    margin-left: 10;
+    margin-top: 330;
+    margin-right: 10;
+}
+
+.yazi {
+    width: 1500px;
+    
+
+}
+
+.kaydirma {
+    width: 1000px;
+    
+
+}
+
+.info {
+    width: 1500px;
+    margin-top: 70;
+    margin-right: 10;
+
+}
